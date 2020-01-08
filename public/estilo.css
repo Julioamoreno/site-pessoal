@@ -4,7 +4,16 @@
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #818181;
+  color: #8d8c8c;
+}
+h4, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
 }
 h2 {
   font-size: 24px;
@@ -18,8 +27,23 @@ h4 {
   line-height: 1.375em;
   color: #303030;
   font-weight: 400;
-  margin-bottom: 30px;
-}  
+  /* margin-bottom: 30px; */
+}
+.mt-40{
+  margin-top: 40px !important;
+}
+.title .medium{
+  width: 28px;
+}
+.title::before{
+  content: "";
+  position: absolute;
+  background: #199cdb;
+  height: 2px;
+  left: 10px;
+  top: 30px;
+  width: 30px;
+}
 .jumbotron {
   background-color: #f4511e;
   color: #fff;
@@ -71,43 +95,67 @@ h4 {
   font-style: normal;
 }
 .panel {
-  border: 1px solid #f4511e; 
-  border-radius:0 !important;
+  border: 1px solid rgb(177, 174, 174) ; 
+  border-radius:1 !important;
   transition: box-shadow 0.5s;
 }
 .panel:hover {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
-.panel-footer .btn:hover {
-  border: 1px solid #f4511e;
-  background-color: #fff !important;
-  color: #f4511e;
+.panel-body {
+  position: relative;
+  padding: 70px 30px 46px;
 }
-.panel-heading {
-  color: #fff !important;
-  background-color: #f4511e !important;
-  padding: 25px;
-  border-bottom: 1px solid transparent;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+.panel-body h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none
 }
-.panel-footer {
-  background-color: white !important;
+.edu, .curso, .exp {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
 }
-.panel-footer h3 {
-  font-size: 32px;
+.edu::after, .edu::after, .curso::after, .exp::after  {
+  background: #199cdb;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  content: "";
+  height: 14px;
+  left: -5px;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  width: 14px;
 }
-.panel-footer h4 {
-  color: #aaa;
-  font-size: 14px;
+.grau span{
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
 }
-.panel-footer .btn {
-  margin: 15px 0;
-  background-color: #f4511e;
-  color: #fff;
+.grau span.desabilitado{
+  opacity: 0.3;
+  background: #888888;
 }
+.glyphicon-education, .glyphicon-briefcase, .glyphicon-pencil, .glyphicon-check {
+  font-size: 45px;
+  color: #363636;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+
+}
+
+.skills ul{
+  list-style: none;
+  padding-left: 0;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #f4511e;
@@ -176,5 +224,19 @@ footer .glyphicon {
 @media screen and (max-width: 480px) {
   .logo {
     font-size: 150px;
+  }
+  }
+  .skills h4{
+    font-size: small;
+  }
+  .grau{
+    left: 0;
+  }
+  .grau .span {
+    text-align: left;
+    height: 2px;
+    margin-right: 3px;
+    width: 25px;
+
   }
 }

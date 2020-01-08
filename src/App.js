@@ -6,7 +6,7 @@ import Inicio from './componentes/inicio';
 import Servicos from './componentes/servicos';
 import Rodape from './componentes/rodape';
 import Portifolio from './componentes/portifolio';
-import Preço from './componentes/preço';
+import Curriculo from './componentes/curriculo';
 import Contato from './componentes/contato';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
           <Route path='/' exact component={Inicio} />
           <Route path='/servicos' component={Servicos} />
           <Route path='/portifolio' component={Portifolio} />
-          <Route path='/preço' component={Preço} />
+          <Route path='/curriculo' component={Curriculo} />
           <Route path='/contato' component={Contato} />
 
           <Rodape />

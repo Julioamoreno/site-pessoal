@@ -21,7 +21,7 @@ const Cabecalho = props => {
                             <li><Link to='/'>INICIO</Link></li>
                             <li><Link to='/servicos'>SERVIÇOS</Link></li>
                             <li><Link to='/portifolio'>PORTIFOLIO</Link></li>
-                            <li><Link to='/preço'>PREÇO</Link></li>
+                            <li><Link to='/curriculo'>CURRÍCULO</Link></li>
                             <li><Link to='/contato'>CONTATO</Link></li>
                             <li><a href='http://github.com/julioamoreno'><img src={githubIcon} alt='github' height='25' width='25'/></a> </li>
                         </ul>
