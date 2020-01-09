@@ -1,0 +1,107 @@
+.barra {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.barra .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.barra-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.barra-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+.barra-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.barra li a, .barra .barra-brand {
+    color: #fff !important;
+}
+.barra-right{
+    float: right!important;
+    margin-right: -22px;
+}
+.barra-nav{
+    margin: auto;
+}
+.barra-nav li {
+    float: left;
+}
+.barra-nav li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav li {
+    position: relative;
+    display: block;
+}
+.barra-nav .github-icon{
+    height: 25px;
+    width:25;
+}
+
+@media screen and (max-width: 767px) {
+    .barra {
+        min-height: 2px;
+        margin-bottom: 0;
+        z-index: 9999;
+        
+        font-size: 4px;
+        
+        letter-spacing: 2px;
+    }    
+    .barra-nav .li-inicio{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .barra {
+        min-height: 2px;
+        margin-bottom: 0;
+        z-index: 9999;
+        
+        font-size: 4px;
+        
+        letter-spacing: 0px;
+    }    
+    .barra-brand {
+        height: 30px;
+        padding: 12px 0px 1px 0px;
+        font-size: 14px;
+        line-height: 20px;
+        /* letter-spacing: 1px; */
+    }
+    .barra-right {
+        float: right;
+        margin-right: 0px;
+    }
+    .nav li a {
+        padding: 15px 8px 10px 8px;
+    }
+    .barra-nav .li-inicio{
+        display: none;
+    }
+}

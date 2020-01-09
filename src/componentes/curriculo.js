@@ -2,10 +2,68 @@ import React from 'react';
 
 const Curriculo = props => {
     return(
-        <>
+        <>  
+            <div className='container-sobre'  id='topo'>
+                <div className='row coluna-sobre'>
+                    <div className='objetivos'>
+                        <h2>Objetivos</h2>
+                        <h5>Desenvolvedor Web Júnior</h5>
+                        <p>A procura de uma oportunidade para desenvolver minha carreira.</p>
+                    </div>
+                    <div className='tecnologias'>
+                        <h2>Tecnologias</h2>
+                        <div className='bloco-tecnologias'>
+                            <div className='tecnologia'>
+                                <ul>
+                                    <li>
+                                        <h5>Front End</h5>
+                                        <ul>
+                                            <li>
+                                                <p><b>React</b></p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h5>Back End</h5>
+                                        <ul>
+                                            <li>
+                                                <p><strong>NODE JS</strong></p>
+                                                <p>framework Express </p>
+                                                
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h5>Banco de Dados</h5>
+
+                                        <ul>
+                                            <li>
+                                                <p><b>SQL</b></p>
+                                                <p>ORM: Sequelize</p>
+                                                <p><b>Mongo</b></p>
+                                                <p>ODM: Mongoose</p>
+                                                
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            
+                            <div className='tecnologia'>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='descricao'>
+                        <h2>Quem sou eu ?</h2>
+                        <p>Apaixonado por técnologia, amante de programação, sempre buscando aprender algo novo.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            {/* RESUMO */}
             <div className='container-fluid'>
-                <div id='topo' className='text-center'>
-                    <h2>Currículo</h2>
+                <div className='resumo'>
                     <h4>Resumo</h4>
                 </div>
                 <div className='grid'>
@@ -16,8 +74,8 @@ const Curriculo = props => {
                                     <div className='col-sm-4 col-xs-12 glyphicon glyphicon-education'></div>
                                 <div className='row '>
                                     <div className='title medium'>
-                                    <h4>Educação</h4>
-                                </div>
+                                        <h4>Educação</h4>
+                                    </div>
                 
                                 
                                 </div>
