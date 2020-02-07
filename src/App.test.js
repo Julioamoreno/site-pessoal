@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, findAllByText } from '@testing-library/react';
 import App from './App';
+import Inicio from './componentes/inicio';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders learn react link', () => {
+//   const { findAllByText } = render(<Inicio />);
+//   const received = findAllByText(/ Júlio Armando/i);
+//   expect(received).toBeInTheDocument();
+// });

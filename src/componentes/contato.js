@@ -7,7 +7,7 @@ import IconGithub from '../utils/image/github-Icone.png';
 const Contato = props => {
     return(
         <>
-            <div id='contact' className='container-fluid bg-grey'>
+            <div id='contato' className='container-fluid bg-grey contato'>
                 <h2 className='text-center'>CONTATO</h2>
                 <div className='row'>
                     <div className='col-sm-12'>

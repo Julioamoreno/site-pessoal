@@ -197,16 +197,6 @@ const Curriculo = props => {
                                 <div className='skills mt-40'>
                                     <ul>
                                         <li>
-                                            <h4>HTML/CSS</h4>
-                                            <div className='grau'>
-                                                <span></span>
-                                                <span></span>
-                                                <span className='desabilitado'></span>
-                                                <span className='desabilitado'></span>
-                                                <span className='desabilitado'></span>
-                                            </div>
-                                        </li>
-                                        <li>
                                             <h4>NODEJS</h4>
                                             <div className='grau'>
                                                 <span></span>
@@ -241,6 +231,26 @@ const Curriculo = props => {
                                             <div className='grau'>
                                                 <span></span>
                                                 <span></span>
+                                                <span className='desabilitado'></span>
+                                                <span className='desabilitado'></span>
+                                                <span className='desabilitado'></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h4>MONGODB</h4>
+                                            <div className='grau'>
+                                                <span></span>
+                                                <span className='desabilitado'></span>
+                                                <span className='desabilitado'></span>
+                                                <span className='desabilitado'></span>
+                                                <span className='desabilitado'></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h4>Jest</h4>
+                                            <div className='grau'>
+                                                <span></span>
+                                                <span className='desabilitado'></span>
                                                 <span className='desabilitado'></span>
                                                 <span className='desabilitado'></span>
                                                 <span className='desabilitado'></span>

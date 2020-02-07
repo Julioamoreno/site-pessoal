@@ -39,6 +39,9 @@
 .barra li a, .barra .barra-brand {
     color: #fff !important;
 }
+.barra .disabled{
+    pointer-events: none;
+}
 .barra-right{
     float: right!important;
     margin-right: -22px;

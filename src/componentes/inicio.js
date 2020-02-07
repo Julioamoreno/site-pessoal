@@ -14,8 +14,12 @@ const Inicio = props => {
                 <div className='row'>
                     <div className='col-sm-8'>
                         <h2>Sobre Júlio Armando</h2><br />
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            Uma pessoa focada, analítica, amante de novas tecnologias.
+                            Sempre em busca de conhecimentos que possibilitem evoluir minhas áreas de conhecimento,
+                            tentando sempre estar atento aos novos direcionamentos.
+                            
+                        </p>
                     
                     </div>
                     <div className='col-sm-4'>

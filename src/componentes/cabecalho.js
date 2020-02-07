@@ -12,7 +12,7 @@ const Cabecalho = props => {
                     <div className='collapse barra-collapse' id='mybarra'>
                         <ul className='nav barra-nav barra-right'>
                             <li><Link className='li-inicio' to='/'>INICIO</Link></li>
-                            <li><Link to='/portifolio'>PORTIFOLIO</Link></li>
+                            <li><Link to='/portifolio' className='disabled'>PORTIFOLIO</Link></li>
                             <li><Link to='/curriculo'>CURRÍCULO</Link></li>
                             <li><Link to='/contato'>CONTATO</Link></li>
                         </ul>
