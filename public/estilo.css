@@ -27,7 +27,6 @@ h4 {
   line-height: 1.375em;
   color: #303030;
   font-weight: 400;
-  /* margin-bottom: 30px; */
 }
 .mt-40{
   margin-top: 40px !important;
@@ -191,9 +190,14 @@ h4 {
 }
 
 /* Contato */
-.glyphicon-envelope, .glyphicon-phone{
+.glyphicon-envelope{
   font-size: 20px;
+  vertical-align: text-top;
 }
+p img{
+  vertical-align :text-top;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #f4511e;
