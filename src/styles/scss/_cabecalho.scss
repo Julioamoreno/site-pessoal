@@ -1,0 +1,40 @@
+@import './variaveis';
+
+.navbar {
+	position: relative;
+	min-height: 50px;
+	background-color: $cor-primeira;
+
+	border: 0;
+	font-size: 13px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 3px;
+	border-radius: 0;
+
+	.navbar-brand {
+		color: #fff !important;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.collapse {
+		padding-left: clamp(1px, 1.5vw, 100px);
+		ul {
+			list-style: none;
+
+			li {
+				position: relative;
+				display: block;
+				a {
+					color: #fff !important;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					font-size: clamp(11px, 1.6vh, 20px);
+					&:hover {
+						color: $cor-primeira !important;
+						background-color: #fff !important;
+					}
+				}
+			}
+		}
+	}
+}

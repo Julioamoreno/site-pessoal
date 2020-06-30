@@ -1,0 +1,35 @@
+@import "./variaveis";
+
+.container-fluid {
+	.titulo {
+		height: 20vh;
+	}
+	.card {
+		.card-header {
+			text-align: center;
+			h3 {
+				vertical-align: middle;
+				font-size: clamp(25px, 3vw, 28px);
+			}
+		}
+		img {
+			width: 415px;
+			height: 200px;
+			align-self: center;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		.proj-desc {
+			height: 120px;
+			vertical-align: middle;
+			.card-text {
+				font-size: clamp(14px, 1.3vw, 16px);
+			}
+		}
+
+		.proj-links {
+			text-align: center;
+		}
+	}
+}

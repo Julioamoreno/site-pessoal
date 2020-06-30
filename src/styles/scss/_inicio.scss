@@ -1,0 +1,19 @@
+@import './variaveis.scss';
+
+.container-fluid {
+	#topo {
+		height: 50vh;
+		vertical-align: middle;
+		background-color: $cor-primeira;
+		color: $cor-quarta;
+		h1 {
+			font-size: clamp(35px, 5vw, 60px);
+		}
+		h2 {
+			font-size: clamp(20px, 2vw, 30px);
+		}
+	}
+	#sobre {
+		height: 40vh;
+	}
+}
