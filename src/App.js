@@ -1,36 +1,31 @@
-import React, {Component} from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import './styles/css/estilo.css';
 
 import Cabecalho from './componentes/cabecalho';
 import Inicio from './componentes/inicio';
-import Servicos from './componentes/servicos';
-import Rodape from './componentes/rodape';
-// import Portifolio from './componentes/portifolio';
+import Portfolio from './componentes/portfolio';
 import Curriculo from './componentes/curriculo';
 import Contato from './componentes/contato';
 
 class App extends Component {
-  render() {
-    return (
-     
-      <BrowserRouter>
-        <div className="App">
-          <Cabecalho />
-          <Switch>
-            <Route path='/' exact component={Inicio} />
-            <Route path='/servicos' component={Servicos} />
-            {/* <Route path='/portifolio' component={Portifolio} /> */}
-            <Route path='/curriculo' component={Curriculo} />
-            <Route path='/contato' component={Contato} />
-            <Route path='*' component={Inicio} />
-          </Switch>
-          
-
-          <Rodape />
-        </div>
-      </BrowserRouter>
-    );
-  }
+	render() {
+		return (
+			<BrowserRouter>
+				<div className="App">
+					<Cabecalho />
+					<Switch>
+						<Route path="/" exact component={Inicio} />
+						<Route path="/portfolio" component={Portfolio} />
+						<Route path="/curriculo" component={Curriculo} />
+						<Route path="/contato" component={Contato} />
+						<Route path="*" component={Inicio} />
+					</Switch>
+				</div>
+			</BrowserRouter>
+		);
+	}
 }
 
 export default App;
