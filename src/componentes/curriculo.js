@@ -8,14 +8,17 @@ import {
 	GlobeIcon,
 } from '@primer/octicons-react';
 
-const Curriculo = (props) => {
+const Curriculo = props => {
 	return (
 		<div className="container-fluid">
 			<div className="row coluna-sobre">
 				<div className="col-md-4 objetivos">
 					<h2>Objetivos</h2>
 					<h5>Desenvolvedor Web Júnior</h5>
-					<p>A procura de uma oportunidade para desenvolver minha carreira.</p>
+					<p>
+						A procura de uma oportunidade para desenvolver minha
+						carreira.
+					</p>
 				</div>
 				<div className="col-md-4 tecnologias">
 					<h2>Tecnologias</h2>
@@ -66,8 +69,8 @@ const Curriculo = (props) => {
 				<div className="col-md-4 descricao">
 					<h2>Quem sou eu ?</h2>
 					<p>
-						Apaixonado por técnologia, amante de programação, sempre buscando
-						aprender algo novo.
+						Apaixonado por técnologia, amante de programação, sempre
+						buscando aprender algo novo.
 					</p>
 				</div>
 			</div>
@@ -140,11 +143,11 @@ const Curriculo = (props) => {
 							</div>
 							<div className="curso dot">
 								<div className="hgroup mb-2">
-									<h4>Curso Node.js Básico</h4>
-									<h5>SCHOOL OF NET - 06 horas</h5>
-									<h6>Conclusão: NOV 2019</h6>
+									<h4>Cloud Computing e Serverless</h4>
+									<h5>Digital Innovation One</h5>
+									<h6>Conclusão: JUL 2020</h6>
 									<h5>
-										<a href="https://www.schoolofnet.com/validar-certificado/?certificate=e328dfb5-fa1b-45a0-b38c-c3fa6650c4b0">
+										<a href="https://certificates.digitalinnovation.one/43FFD38E">
 											Link Certificado
 										</a>
 									</h5>
@@ -152,11 +155,14 @@ const Curriculo = (props) => {
 							</div>
 							<div className="curso dot">
 								<div className="hgroup mb-2">
-									<h4>NODE COM EXPRESS.JS</h4>
-									<h5>SCHOOL OF NET - 6 horas</h5>
-									<h6>Conclusão: DEZ 2019</h6>
+									<h4>Bootcamp desenvolvedor FullStack</h4>
 									<h5>
-										<a href="https://www.schoolofnet.com/validar-certificado/?certificate=1f134341-260c-4d29-8fea-b68f5063fe51">
+										Instituto de Gestão e Tecnologia da
+										Informação-IGTI 148Horas
+									</h5>
+									<h6>Conclusão: SET 2020</h6>
+									<h5>
+										<a href="https://media-exp1.licdn.com/dms/image/C562DAQG6_JUtQNvCug/profile-treasury-document-cover-images_800/0?e=1600552800&v=beta&t=HfswHRbFuMhP3GfXrKnBLraOp12hlpeto3qjvrFvxCQ">
 											Link Certificado
 										</a>
 									</h5>
@@ -169,30 +175,6 @@ const Curriculo = (props) => {
 									<h6>Conclusão: DEZ 2019</h6>
 									<h5>
 										<a href="https://www.schoolofnet.com/validar-certificado/?certificate=fe8ebb11-d7ec-48c7-9abb-07dbb532444b">
-											Link Certificado
-										</a>
-									</h5>
-								</div>
-							</div>
-							<div className="curso dot">
-								<div className="hgroup mb-2">
-									<h4>ECMAScript 6</h4>
-									<h5>SCHOOL OF NET - 7 horas</h5>
-									<h6>Conclusão: NOV 2019</h6>
-									<h5>
-										<a href="https://www.schoolofnet.com/validar-certificado/?certificate=f39708d4-c413-480e-96d5-4103f0854ca0">
-											Link Certificado
-										</a>
-									</h5>
-								</div>
-							</div>
-							<div className="curso dot">
-								<div className="hgroup mb-2">
-									<h4>Iniciando Com MongoDB</h4>
-									<h5>SCHOOL OF NET - 6 horas</h5>
-									<h6>Conclusão: DEZ 2019</h6>
-									<h5>
-										<a href="https://www.schoolofnet.com/validar-certificado/?certificate=ce2a9b37-721b-4661-b236-c77c98d4ed56">
 											Link Certificado
 										</a>
 									</h5>
@@ -219,7 +201,7 @@ const Curriculo = (props) => {
 										<h4>NODEJS</h4>
 										<div className="grau">
 											<span></span>
-											<span className="desabilitado"></span>
+											<span></span>
 											<span className="desabilitado"></span>
 											<span className="desabilitado"></span>
 											<span className="desabilitado"></span>
@@ -229,7 +211,7 @@ const Curriculo = (props) => {
 										<h4>EXPRESS</h4>
 										<div className="grau">
 											<span></span>
-											<span className="desabilitado"></span>
+											<span></span>
 											<span className="desabilitado"></span>
 											<span className="desabilitado"></span>
 											<span className="desabilitado"></span>
