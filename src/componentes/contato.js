@@ -5,7 +5,7 @@ import IconLinkedin from '../utils/image/linkedin-Icone.png';
 import IconWhatsapp from '../utils/image/whatsapp-Icone.png';
 import IconGithub from '../utils/image/github-Icone.png';
 
-const Contato = (props) => {
+const Contato = props => {
 	return (
 		<>
 			<div id="contato" className="container-fluid bg-grey contato">
@@ -13,12 +13,17 @@ const Contato = (props) => {
 				<div className="row">
 					<div className="col-sm-12 px-5 py-5">
 						<p>
-							<MailIcon size={20} /> {' '}
+							<MailIcon alt="imagem-email" size={20} />{' '}
 							julioarmando321@gmail.com
 						</p>
 
 						<p>
-							<img src={IconWhatsapp} alt="whatsapp" width="20" height="20" />{' '}
+							<img
+								src={IconWhatsapp}
+								alt="whatsapp"
+								width="20"
+								height="20"
+							/>{' '}
 							21 97153-9360
 						</p>
 
