@@ -13,9 +13,11 @@ const Curriculo = props => {
 		<div className="container-fluid">
 			<div className="row coluna-sobre">
 				<div className="col-md-4 objetivos">
-					<h2>Objetivos</h2>
-					<h5>Desenvolvedor Web Júnior</h5>
-					<p>
+					<h2 data-testid="objetivo-titulo">Objetivos</h2>
+					<h5 data-testid="objetivo-subtitulo">
+						Desenvolvedor Web Júnior
+					</h5>
+					<p data-testid="objetivo-conteudo">
 						A procura de uma oportunidade para desenvolver minha
 						carreira.
 					</p>
@@ -66,7 +68,7 @@ const Curriculo = props => {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-4 descricao">
+				<div className="col-md-4 descricao" data-testid="quem-sou-eu">
 					<h2>Quem sou eu ?</h2>
 					<p>
 						Apaixonado por técnologia, amante de programação, sempre
@@ -78,7 +80,7 @@ const Curriculo = props => {
 			{/* RESUMO */}
 
 			<div className="row my-5 mx-4">
-				<div className="col">
+				<div className="col" data-testid="resumo-titulo">
 					<h4>Resumo</h4>
 				</div>
 			</div>
@@ -89,11 +91,17 @@ const Curriculo = props => {
 							<div className="col-sm-4 col-xs-12"></div>
 							<div className="row ">
 								<div className="title col">
-									<MortarBoardIcon size={'medium'} />
-									<h4>Educação</h4>
+									<MortarBoardIcon
+										size={'medium'}
+										data-testid="educacao-img"
+									/>
+									<h4 data-testid="educacao-titulo">Educação</h4>
 								</div>
 							</div>
-							<div className="row edu dot">
+							<div
+								className="row edu dot"
+								data-testid="educacao-conteudo"
+							>
 								<div className="hgroup">
 									<h3>Ensino Superior Completo</h3>
 									<h4>Ciência da Computação</h4>
@@ -116,11 +124,19 @@ const Curriculo = props => {
 							<div className="col-sm-4 col-xs-12 "></div>
 							<div className="row mx-2">
 								<div className="title col">
-									<OrganizationIcon size={'medium'} />
-									<h4>Experiência</h4>
+									<OrganizationIcon
+										size={'medium'}
+										data-testid="experiencia-img"
+									/>
+									<h4 data-testid="experiencia-titulo">
+										Experiência
+									</h4>
 								</div>
 							</div>
-							<div className="edu dot">
+							<div
+								className="edu dot"
+								data-testid="experiencia-conteudo1"
+							>
 								<div className="hgroup">
 									<h3>MLS - Wireless</h3>
 									<h4>Suporte Técnico</h4>
@@ -137,12 +153,18 @@ const Curriculo = props => {
 							<div className="col-sm-4 col-xs-12 "></div>
 							<div className="row ">
 								<div className="title col">
-									<PencilIcon size={'medium'} />
-									<h4>Cursos</h4>
+									<PencilIcon
+										size={'medium'}
+										data-testid="curso-img"
+									/>
+									<h4 data-testid="curso-titulo">Cursos</h4>
 								</div>
 							</div>
 							<div className="curso dot">
-								<div className="hgroup mb-2">
+								<div
+									className="hgroup mb-2"
+									data-testid="curso-conteudo1"
+								>
 									<h4>Cloud Computing e Serverless</h4>
 									<h5>Digital Innovation One</h5>
 									<h6>Conclusão: JUL 2020</h6>
@@ -154,7 +176,10 @@ const Curriculo = props => {
 								</div>
 							</div>
 							<div className="curso dot">
-								<div className="hgroup mb-2">
+								<div
+									className="hgroup mb-2"
+									data-testid="curso-conteudo2"
+								>
 									<h4>Bootcamp desenvolvedor FullStack</h4>
 									<h5>
 										Instituto de Gestão e Tecnologia da
@@ -169,7 +194,10 @@ const Curriculo = props => {
 								</div>
 							</div>
 							<div className="curso dot">
-								<div className="hgroup mb-2">
+								<div
+									className="hgroup mb-2"
+									data-testid="curso-conteudo3"
+								>
 									<h4>Autenticação com Node.js e Passport</h4>
 									<h5>SCHOOL OF NET - 6 horas</h5>
 									<h6>Conclusão: DEZ 2019</h6>
@@ -190,7 +218,7 @@ const Curriculo = props => {
 						<div className="card-body mx-2">
 							<div className="col-sm-4 col-xs-12"></div>
 							<div className="row ">
-								<div className="title col">
+								<div className="title col" data-testid="skill-titulo">
 									<ChecklistIcon size={'medium'} />
 									<h4>Skills</h4>
 								</div>
