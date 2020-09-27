@@ -12,7 +12,12 @@ const Portfolio = props => {
 			<div className="container-fluid">
 				<div className="row titulo">
 					<div className="col my-auto">
-						<h2 className="text-center">Projetos Pessoais</h2>
+						<h2
+							className="text-center"
+							data-testid="titulo-portfolio"
+						>
+							Projetos Pessoais
+						</h2>
 					</div>
 				</div>
 
@@ -20,7 +25,7 @@ const Portfolio = props => {
 					<div className="col-sm-6 col-lg-4">
 						<div className="card border-secondary mb-4 box-shadow">
 							<div className="card-header px-0">
-								<h3>Como Gastei</h3>
+								<h3 data-testid="titulo-projeto1">Como Gastei</h3>
 							</div>
 							<img
 								className="card-img-top img-thumbnail"
@@ -28,7 +33,10 @@ const Portfolio = props => {
 								src={GIFComoGastei}
 							/>
 							<div className="card-body proj-desc py-2 py-sm-0 py-md-2">
-								<p className="card-text">
+								<p
+									className="card-text"
+									data-testid="descricao-projeto1"
+								>
 									WebApp para ajudar nas finanças pessoais, onde o
 									usuário pode cadastrar as despesas/receitas, sendo
 									possível restringir a lista a partir de uma barra de
@@ -58,15 +66,20 @@ const Portfolio = props => {
 					<div className="col-sm-6 col-lg-4">
 						<div className="card border-secondary mb-4 box-shadow">
 							<div className="card-header px-0">
-								<h3>Calculadora de Salário Liquido</h3>
+								<h3 data-testid="titulo-projeto2">
+									Calculadora de Salário Liquido
+								</h3>
 							</div>
 							<img
 								className="card-img-top img-thumbnail"
-								alt="Gif desmonstração site como gastei"
+								alt="Gif desmonstração salario liquido"
 								src={GIFCalculadoraSalario}
 							/>
 							<div className="card-body proj-desc py-2 py-sm-0 py-md-2">
-								<p className="card-text">
+								<p
+									className="card-text"
+									data-testid="descricao-projeto2"
+								>
 									Webapp que discrimina todos os descontos de um
 									salário e informa a porcentagem de cada fatia do
 									salário bruto, com informação escrita e também
@@ -88,7 +101,7 @@ const Portfolio = props => {
 					<div className="col-sm-6 col-lg-4">
 						<div className="card border-secondary mb-4 box-shadow">
 							<div className="card-header px-0">
-								<h3>Mail Marketing</h3>
+								<h3 data-testid="titulo-projeto3">Mail Marketing</h3>
 							</div>
 							<img
 								className="card-img-top img-thumbnail"
@@ -96,7 +109,10 @@ const Portfolio = props => {
 								src={IMGMailMarketing}
 							/>
 							<div className="card-body proj-desc py-2 py-sm-0 py-md-2">
-								<p className="card-text">
+								<p
+									className="card-text"
+									data-testid="descricao-projeto3"
+								>
 									Projeto de disparos de email, através da API
 									mailgun, com uso das tecnologias: React, MongoDB,
 									NodeJS, Express.
@@ -125,7 +141,9 @@ const Portfolio = props => {
 					<div className="col-sm-6 col-lg-4">
 						<div className="card border-secondary mb-4 box-shadow">
 							<div className="card-header px-0">
-								<h3>Semana OmniStack10</h3>
+								<h3 data-testid="titulo-projeto4">
+									Semana OmniStack10
+								</h3>
 							</div>
 							<img
 								className="card-img-top img-thumbnail"
@@ -133,7 +151,10 @@ const Portfolio = props => {
 								src={IMGSemanaOmni10}
 							/>
 							<div className="card-body proj-desc py-2 py-sm-0 py-md-2">
-								<p className="card-text">
+								<p
+									className="card-text"
+									data-testid="descricao-projeto4"
+								>
 									Projeto do curso Omnistack10 feito pela RocketSeat,
 									que consiste em criar uma aplicação para pessoas
 									encontrarem desenvolvedores Uso das tecnologias:
@@ -155,7 +176,9 @@ const Portfolio = props => {
 					<div className="col-sm-6 col-lg-4">
 						<div className="card border-secondary mb-4 box-shadow">
 							<div className="card-header px-0">
-								<h3>Semana OmniStack11</h3>
+								<h3 data-testid="titulo-projeto5">
+									Semana OmniStack11
+								</h3>
 							</div>
 							<img
 								className="card-img-top img-thumbnail"
@@ -163,7 +186,10 @@ const Portfolio = props => {
 								src={IMGSemanaOmni11}
 							/>
 							<div className="card-body proj-desc py-2 py-sm-0 py-md-2">
-								<p className="card-text">
+								<p
+									className="card-text"
+									data-testid="descricao-projeto5"
+								>
 									Uso das tecnologias: React,NodeJS, Express, Sqlite e
 									Knex.JS
 								</p>
