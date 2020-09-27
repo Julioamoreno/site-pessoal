@@ -1,4 +1,5 @@
 # Site Pessoal em React ✨
+[![codecov](https://codecov.io/gh/Julioamoreno/site-pessoal/branch/master/graph/badge.svg)](https://codecov.io/gh/Julioamoreno/site-pessoal)
 
 Projeto do meu site pessoal que tem o intuito de agrupar projetos pessoais, currículo e contato.
 
