@@ -6,7 +6,7 @@ const Inicio = (props) => {
 			<div className='row' id='topo'>
 				<div className='col text-center my-auto'>
 					<h1>Júlio Armando</h1>
-					<h2>Programador Web Júnior</h2>
+					<h2>Programador Full Stack Javascript</h2>
 				</div>
 			</div>
 
