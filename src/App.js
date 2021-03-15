@@ -8,19 +8,24 @@ import Inicio from './componentes/inicio';
 import Portfolio from './componentes/portfolio';
 import Curriculo from './componentes/curriculo';
 import Contato from './componentes/contato';
+import LeticiaMachadoAPP from './componentes/LeticiaMachado';
 
 class App extends Component {
 	render() {
 		return (
 			<BrowserRouter>
-				<div className="App" data-testid="bloco-app">
+				<div className='App' data-testid='bloco-app'>
 					<Cabecalho />
 					<Switch>
-						<Route path="/" exact component={Inicio} />
-						<Route path="/portfolio" component={Portfolio} />
-						<Route path="/curriculo" component={Curriculo} />
-						<Route path="/contato" component={Contato} />
-						<Route path="*" component={Inicio} />
+						<Route path='/' exact component={Inicio} />
+						<Route path='/portfolio' exact component={Portfolio} />
+						<Route path='/curriculo' component={Curriculo} />
+						<Route path='/contato' component={Contato} />
+						<Route
+							path='/portfolio/leticiamachado'
+							component={LeticiaMachadoAPP}
+						/>
+						<Route path='*' component={Inicio} />
 					</Switch>
 				</div>
 			</BrowserRouter>
